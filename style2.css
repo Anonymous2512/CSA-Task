@@ -1,0 +1,41 @@
+*{
+    /* font-family: sans-serif; */
+    border: none;
+    padding: 0;
+    margin: 0;
+    --green:#44d62c;
+    --nav-grey:rgb(187, 187, 187);
+    --white:rgb(255, 255, 255);
+}
+@font-face {
+    font-family: 'razor1';
+    src: url("./RazerF5.woff")format('woff');
+}
+/* .store-drop {
+    
+} */
+.drop{
+    position: fixed;
+    height: 350px;
+    width: 100%;
+    /* top: calc(3.75rem - 1.5px); */
+    top: -500px;
+    z-index: 100;
+    background-color: rgb(34, 34, 34);
+    left: 0;
+    display: none;
+    
+}
+.navbar li:hover div {
+    display: block;
+    top: calc(3.75rem - 1.5px);
+    /* transition: all 8s ease-in-out; */
+    /* transform: translateY(calc(3.75rem - 1.5px)); */
+    transition-duration: 8s;
+    transition-timing-function: ease-in-out;
+    transition-property: all;
+    transition-delay: 1s;
+}
+/* .navbar li div:hover{
+    display: block;
+} */
